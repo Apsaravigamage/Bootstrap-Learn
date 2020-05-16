@@ -27,16 +27,37 @@
                 <h1 class="text-center">CAT CATEGORIES</h1>
                 <P class="text-center lead">--Choice Your Pet--</P>
             </div>
-        </div><!--row header-->
+        </div><!--row header--> 
 
         <div class="container mt-2 "><!--Alert-->
             <div class="alert alert-primary">
                 <h4 class="alert-heading" > _ _Happy Cats_ _ </h4>
-                Welcome to Pet Moment! Definitely a place for a cat lovers <button class="btn btn-primary">Join Group</button>
+                Welcome to Pet Moment! Definitely a place for a cat lovers <button class="btn btn-primary" data-toggle="modal" data-target="#newmodal">Join Group</button>
                 <span class="badge badge-pill badge-primary">messeges</span><!--badge-->
 
+            </div>  
+        </div>
+
+        <div class="modal" tabindex=-1 role="dialog" id="newmodal"> <!--modal-->    
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"> Join Pet Moments</h5>
+                        <button type="button" class="close" data-dismiss="modal" area-label="close">
+                            <span area-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>welcome to our group !</h3><br> 
+                        <p>Enter your correct User name, Password, IDnumber and your Email Address to join with us</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+
+                </div>
             </div>
-            
         </div>
          
         <div class="row">
